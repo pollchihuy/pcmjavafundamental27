@@ -11,11 +11,16 @@ Version 1.0
 */
 public class ClassContoh1 {
 
+    public String s = "m";
     public ClassContoh ambilContoh(ClassContoh contoh){
         contoh.intX=12;
         contoh.intY=12;
 
         return contoh;
+    }
+
+    public String getString(){
+        return "b";
     }
 
     public int passByValue(int x){

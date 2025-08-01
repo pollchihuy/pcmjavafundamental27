@@ -7,7 +7,6 @@ public class ClassContoh {
 
     public ClassContoh getData(ClassContoh c) {
         ClassContoh1 c1 = new ClassContoh1();
-
         return c1.ambilContoh(c);
     }
 }

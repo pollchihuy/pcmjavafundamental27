@@ -1,18 +1,17 @@
 package com.juaracoding.pcmjavafundamental.operator;
 
+import com.juaracoding.pcmjavafundamental.programmingbasics.ClassContoh1;
+
 public class Aritmatika {
 
     public static void main(String[] args) {
 
+
         int [] intArr = new int [2];
         System.out.println(intArr);
         System.out.println(intArr[0]);
-//        int intZ = 3 + 4;
-//        System.out.println(intZ);
-//
+        int intZ = 3 + 4;
 //        System.out.println("4" + intZ);
-//
-//
 //        double doubleZ = 80 / 9.0;//floor -> bulet kebawah
 //        System.out.println(doubleZ);
 //        System.out.println(Math.floor(8.999999999999994));
