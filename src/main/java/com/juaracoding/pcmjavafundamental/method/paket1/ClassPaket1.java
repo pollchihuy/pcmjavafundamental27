@@ -1,5 +1,11 @@
 package com.juaracoding.pcmjavafundamental.method.paket1;
 
+import com.juaracoding.pcmjavafundamental.oop.IParent;
+import com.juaracoding.pcmjavafundamental.oop.Parent;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /*
 IntelliJ IDEA 2024.1.4 (Ultimate Edition)
 Build #IU-241.18034.62, built on June 21, 2024
@@ -13,6 +19,11 @@ public class ClassPaket1 {
 
     protected static void callMethod1(){
         System.out.println("callMethod1");
+        List l = new ArrayList();
+        ArrayList la = new ArrayList();
+
+        Parent p = new Parent();
+        IParent ip = new Parent();
     }
 
     public String callMethod2(){

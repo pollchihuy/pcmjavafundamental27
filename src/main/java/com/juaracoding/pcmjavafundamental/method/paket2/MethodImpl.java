@@ -3,6 +3,9 @@ package com.juaracoding.pcmjavafundamental.method.paket2;
 import com.juaracoding.pcmjavafundamental.method.paket1.ClassPaket1;
 import com.juaracoding.pcmjavafundamental.method.paket1.ClassPaketHemat;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /*
 IntelliJ IDEA 2024.1.4 (Ultimate Edition)
 Build #IU-241.18034.62, built on June 21, 2024
@@ -18,6 +21,9 @@ class MethodImpl extends ClassPaket1 {
 
         ClassPaketHemat classPaketHemat = new ClassPaketHemat(2L,"Paul");
         ClassPaketHemat classPaketHemat2 = new ClassPaketHemat();
+        test(new String[4],5);
+        test(new String[4],5,6.0);
+        List l = new ArrayList();
 //        "".toLowerCase();
 //        classPaketHemat.setId(2L);
 //        classPaketHemat.setName("Nama");
@@ -32,6 +38,15 @@ class MethodImpl extends ClassPaket1 {
 //        m.impl();
 //        impl();
     }
+
+    public static void test(String[] strArr,Integer intK){
+
+    }
+
+    public static void test(String[] strArr,Integer intK, Double douK){
+
+    }
+
 //    public static void impl(){
 //        String s = callMethod2()+" OK ";
 //        System.out.println(s);
