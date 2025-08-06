@@ -26,7 +26,7 @@ public class ClassPaket1 {
         IParent ip = new Parent();
     }
 
-    public String callMethod2(){
+    protected String callMethod2(){
         System.out.println("callMethod1");
         System.out.println("callMethod1");
         System.out.println("callMethod1");
